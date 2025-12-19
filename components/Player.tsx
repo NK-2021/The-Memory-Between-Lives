@@ -210,7 +210,7 @@ const Player: React.FC<PlayerProps> = ({ story, onBack }) => {
           </div>
         </div>
 
-        {/* Video Link */}
+        {/* Video Link 
         <a 
           href={story.videoUrl}
           target="_blank"
@@ -227,7 +227,7 @@ const Player: React.FC<PlayerProps> = ({ story, onBack }) => {
             // </div>
           </div>
           <ChevronLeft className="w-5 h-5 text-slate-500 rotate-180" />
-        </a>
+        </a>*/}
 
         {/* Moral Section - Visible at end or via scroll */}
         <div className={`transition-all duration-1000 transform ${isFinished ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-70'}`}>
