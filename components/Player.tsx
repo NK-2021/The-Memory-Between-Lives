@@ -32,9 +32,15 @@ const Player: React.FC<PlayerProps> = ({ story, onBack }) => {
     const audio = audioRef.current;
     if (!audio) return;
 
+    // const handleTimeUpdate = () => {
+    //   setCurrentTime(audio.currentTime);
+    //   setProgress((audio.currentTime / audio.duration) * 100);
+    // };
+
     const handleTimeUpdate = () => {
+      const d = audio.duration;
       setCurrentTime(audio.currentTime);
-      setProgress((audio.currentTime / audio.duration) * 100);
+      setProgress(d && !isNaN(d) ? (audio.currentTime / d) * 100 : 0);
     };
 
     const handleLoadedMetadata = () => {
@@ -151,7 +157,20 @@ const Player: React.FC<PlayerProps> = ({ story, onBack }) => {
       {/* Main Content */}
       <div className="flex-1 space-y-8">
         {/* Slideshow Area */}
-        <Slideshow scenes={story.scenes} isPlaying={isPlaying} />
+        {/*<Slideshow scenes={story.scenes} isPlaying={isPlaying} />*/}
+        <Slideshow
+          scenes={story.scenes}
+          currentTime={currentTime}
+          duration={duration}
+          onSelectScene={(index) => {
+            const audio = audioRef.current;
+            if (!audio || !duration) return;
+
+            const segment = duration / story.scenes.length;
+            audio.currentTime = index * segment;   // seek audio
+            setIsFinished(false);
+          }}
+        />
 
         {/* Error Display */}
         {error && (

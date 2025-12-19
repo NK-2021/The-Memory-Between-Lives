@@ -4,12 +4,50 @@ import { Story } from './types';
 export const STORIES: Story[] = [
   {
     id: "s1",
+    title: "The stone & the ripple (Black Magic Karma)",
+    category: "Healer",
+    durationMin: 2.15,
+    moral: "Karma is like throwing a stone into a still pond.",
+    disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/story_slug-5.mp3",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    scenes: [
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-1-5.jpg" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-2-5.jpg" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-3-5.jpg" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-4-5.jpg" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-5-5.jpg" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-5-5.jpg" }
+      ]
+
+  },
+  {
+    id: "s2",
+    title: "The Burning Jealousy",
+    category: "Healer",
+    durationMin: 2.15,
+    moral: "When you measure yourself against others, karma measures you back.",
+    disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/story_slug-6.mp3",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    scenes: [
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-1-6.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-2-6.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-3-6.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-4-6.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-5-6.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-6-6.png" }
+      ]
+
+  },
+  {
+    id: "s3",
     title: "The Man Who Never Spoke Up",
     category: "Healer",
     durationMin: 2.15,
     moral: "Your voice is not a disruption. It is a responsibility.",
     disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
-    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/past_life_session_01.mp3",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/psr-a1.wav",
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     scenes: [
         { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/s1_01.png" },
@@ -22,13 +60,13 @@ export const STORIES: Story[] = [
 
   },
   {
-    id: "s2",
+    id: "s4",
     title: "The Woman Who Couldn’t Rest",
     category: "Scholar",
     durationMin: 1.57,
     moral: "Rest is not abandonment. It is restoration.",
     disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
-    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/past_life_session_02.mp3",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/psr-a2.wav",
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     scenes: [
 
@@ -47,39 +85,90 @@ export const STORIES: Story[] = [
     ]
   },
   {
-    id: "s3",
-    title: "Legacy of the Obsidian Blade",
+    id: "s5",
+    title: "The Man Who Feared Heights",
     category: "Warrior",
     durationMin: 5,
-    moral: "True strength is found in peace, not battle. The greatest victory is the conquest of one's own shadow.",
+    moral: "Not every edge you stand on is a fall waiting to happen.",
     disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
-    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/psr-a3.wav",
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     scenes: [
-      { imgUrl: "https://picsum.photos/seed/warrior1/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/warrior2/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/warrior3/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/warrior4/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/warrior5/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/warrior6/1200/675" }
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-01.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-02.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-03.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-04.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-05.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/ps-s3-06.jpeg" }
+
     ]
   },
   {
-    id: "s4",
-    title: "The Star-Gazer's Journey",
+    id: "s6",
+    title: "The Woman Who Feared Deep Water",
     category: "Explorer",
     durationMin: 12,
-    moral: "The universe is not outside you. Look within, and you will find the stars you were searching for.",
+    moral: "Not everything that carries you forward can be steered.",
     disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
-    audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/psr-a4.wav",
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     scenes: [
-      { imgUrl: "https://picsum.photos/seed/explorer1/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/explorer2/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/explorer3/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/explorer4/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/explorer5/1200/675" },
-      { imgUrl: "https://picsum.photos/seed/explorer6/1200/675" }
+     { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-01.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-02.mp4" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-03.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-04.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-05.jpeg" },
+
+      { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/plr-s4-06.jpeg" }
+
     ]
+  },
+  {
+    id: "s7",
+    title: "The drowned promise",
+    category: "Healer",
+    durationMin: 2.15,
+    moral: "Promises broken in fear return as lessons in responsibility.",
+    disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/story_slug-7.mp3",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    scenes: [
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-1-7.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-2-7.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-3-7.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-4-7.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-5-7.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-6-7.png" }
+      ]
+
+  },
+  {
+    id: "s8",
+    title: "The false oath",
+    category: "Healer",
+    durationMin: 2.15,
+    moral: "Truth suppressed once will demand voice again.",
+    disclaimer: "All stories are fictional and created by AI for entertainment purposes only. This content is not intended as medical, psychological, or spiritual advice.",
+    audioUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/audio/story_slug-8.mp3",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    scenes: [
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-1-8.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-2-8.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-3-8.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-4-8.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-5-8.png" },
+        { imgUrl: "https://cdn.jsdelivr.net/gh/NK-2021/past-life-regression-app-audio@main/images/scene-6-8.png" }
+      ]
+
   }
 ];
